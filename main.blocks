@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="ZNW3F*0}[_.vd_1/4eh*">Player</variable><variable type="KIND_SpriteKind" id="s+d,AdM9/f^%FX6Q=789">Projectile</variable><variable type="KIND_SpriteKind" id="J2NM)dkS{vZkVVcCLNwC">Food</variable><variable type="KIND_SpriteKind" id="!KQN$kRCBy#OETD8Tfc6">Enemy</variable><variable id="S5^V6QnwCn^eL(1ZDP`t">mySprite</variable><variable id="g]`!fq,KpP}!#zS5rb#h">button</variable></variables><block type="pxt-on-start" id="Q5M%12-ziKuPHWrV4.M5" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="?4L(TMVS:@OAzQqQfO#?"><value name="color"><shadow type="colorindexpicker" id="}pHfUU%MCO-[jMc,Y.]P"><field name="index">8</field></shadow></value><next><block type="variables_set" id="wMi1jj)s4r?UN3#4bGkf"><field name="VAR" id="g]`!fq,KpP}!#zS5rb#h">button</field><value name="VALUE"><shadow type="math_number" id="7!4u:[{0x[oRc3uvCtEc"><field name="NUM">0</field></shadow><block type="spritescreate" id="B2O]Es{j.$ZBhmFS_.R="><value name="img"><shadow type="screen_image_picker" id="T*|N+:z1F^$Ar5aOhZ:B"><field name="img">img`
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="`T]MUlG)ugvx2O)13OJK"><field name="MEMBER">Enemy</field></shadow></value></block></value><next><block type="gamecountdown" id=")5N5lYH*^h0SxvhZ0kEH"><value name="duration"><shadow type="math_number" id=";90$GTr?J/:@oUoO[G[("><field name="NUM">10</field></shadow></value></block></next></block></next></block></statement></block><block type="gameOver2" id="g6s{]S/bqI}@6^99tbia" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="353" y="191"><value name="win"><shadow type="toggleWinLose" id="IV3HBw4U%}3vyiQw3=wl" disabled-reasons="MANUALLY_DISABLED"><field name="win">true</field></shadow></value></block><block type="gamecountdownevent" id="n|[1!1QVu7^Qyrl~gkG4" x="207" y="241"><statement name="HANDLER"><block type="gameOver2" id="7Mj$B{}gf=RX9wV]UK+5"><value name="win"><shadow type="toggleWinLose" id="sQEzl!5$XH]{gaZY;/.i"><field name="win">true</field></shadow></value><next><block type="game_setgameovermessage" id=".eE]%UR(QBX+(.PbWIH."><value name="message"><shadow type="text" id="Bw4:fzeX3Cpu7ssF!4WS"><field name="TEXT">GAME OVER!</field></shadow></value><value name="win"><shadow type="toggleWinLose" id="}mx27Tv}yI5kjF$jmA?E"><field name="win">true</field></shadow></value><next><block type="game_setgameoverscoringtype" id="hlf}gS@{$J)a:i8J^yEX"><field name="type">game.ScoringType.HighScore</field></block></next></block></next></block></statement></block><block type="keyonevent" id="DTNyM}ZVeMqgEGo1!PJM" x="-64" y="265"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="hudChangeScoreBy" id="uw}YXcjj%T0?hnNce|fs"><value name="value"><shadow type="math_number" id="obN8Ck%=rsKrjge18$p@"><field name="NUM">1</field></shadow></value></block></statement></block></xml>
